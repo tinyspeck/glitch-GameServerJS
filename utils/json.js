@@ -1,7 +1,6 @@
-// Tiny Speck would like to offer our deepest, most sincere apologies — we 
-// definitely snagged this code off the internet and can't find its source.
-// If you wrote it, please let us know so that we can give you the proper 
-// credit! We're at feedback@slack.com.
+// This JSON-stringifier is based on Douglas Crockford's original json2.js
+// https://github.com/douglascrockford/JSON-js/blob/master/json2.js
+// The original work has been released into the public domain.
 //
 // public api
 
