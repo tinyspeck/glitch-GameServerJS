@@ -25,7 +25,7 @@ var conditions = {
 function onComplete(pc){ // generated from rewards
 	var multiplier = pc.buffs_has('gift_of_gab') ? 1.2 : pc.buffs_has('silvertongue') ? 1.05 : 1.0;
 	multiplier += pc.imagination_get_achievement_modifier();
-	if (/completist/i.exec(this.name)) { 
+	if (/complete list/i.exec(this.name)) { 
 		 var level = pc.stats_get_level(); 
 		 if (level > 4) {  
 				multiplier *= (pc.stats_get_level()/4); 
